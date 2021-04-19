@@ -1,4 +1,5 @@
 import * as WebSocket from 'ws';
+
 // Wrapper around raw websocket where we can inject our logic.
 class ServerSocket {
   webSocket: WebSocket;

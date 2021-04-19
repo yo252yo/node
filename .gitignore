@@ -2,6 +2,10 @@ data/
 bin/
 compiled/
 
+# Environment dependent:
+src/static/client/client_environment.js
+src/environment.ts
+
 
 # Logs
 logs

@@ -11,6 +11,8 @@ const appBase = express();
 const wsInstance = expressWs(appBase);
 const app = wsInstance.app;
 
+require('./environment.js');
+
 // Templates
 app.set("view engine", "pug");
 app.set("views", path.join(__dirname, "../src/views")); // this is run from compiled/
