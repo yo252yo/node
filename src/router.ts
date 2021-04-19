@@ -7,4 +7,5 @@ router.get("/template", (req, res) => {
 
 router.get('/html', function(req, res, next){
   res.sendfile('./src/static/html.html');
+  // note: its also available at http://localhost:9090/static/html.html
 });
