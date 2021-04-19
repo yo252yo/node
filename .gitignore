@@ -1,8 +1,8 @@
 data/
-bin/
 compiled/
 
 # Environment dependent:
+bin/
 src/static/client/client_environment.js
 src/environment.ts
 
