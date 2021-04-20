@@ -28,3 +28,7 @@ export function broadcastMessage(msg: string) {
     socket.send(msg);
   });
 }
+
+export function broadcastObject(object: any) {
+  broadcastMessage(JSON.stringify(object));
+}
